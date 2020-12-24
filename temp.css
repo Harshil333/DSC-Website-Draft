@@ -75,6 +75,135 @@ button:hover, button:focus {
 }
 
 
+
+/*********************LANDING PAGE SECTION**************************/
+
+#landingPageSection #header{
+	position: fixed;
+	z-index:9999;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	width: 100%;
+	background:#FFF;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	transition: 0.6s;
+	/*-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 0px 3px 15px rgba(100, 100, 100, 0.49);
+	-moz-box-shadow: 0px 3px 15px rgba(100, 100, 100, 0.49);
+	box-shadow: 0px 3px 15px rgba(100, 100, 100, 0.49);*/
+}
+
+#landingPageSection #header.sticky{
+	-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#landingPageSection #header #logo{
+	/* font-style: italic; */
+	font-size: 20px;
+	padding-right: 400px;
+}
+
+#landingPageSection #header #logo span{
+	color: #564FCC;
+}
+
+#landingPageSection #header nav{
+	color: #1B2733;
+}
+
+#landingPageSection #header nav a{
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	color: #1B2733;
+}
+/* #header nav a:last-child{
+	color: white;
+	background: #6C63FF;
+	padding: 10px 20px;
+	margin-left: 30px;
+	border-radius: 30px;
+} */
+
+#landingPageSection #header nav a:hover{
+	opacity: 0.9;
+}
+
+#landingPageSection #container{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 20px;
+	height: 575px;
+}
+
+#landingPageSection #bg-container{
+	width: 50%;
+}
+
+#landingPageSection #bg-container svg{
+	padding-top: 56px;
+	width: 100%;
+	height: 100%;
+}
+
+#landingPageSection #content-container{
+	margin-top: auto;
+	padding-top: 70px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#landingPageSection #content-container h2{
+	color:  #1B2733;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 0.9em;
+	margin-bottom: 30px;
+}
+
+#landingPageSection #content-container p{
+	line-height: 1.8em;
+	font-weight: 300;
+	color: rgba(128, 128, 128);
+	font-family: "Product Sans",sans-serif;
+}
+
+/*#landingPageSection #content-container button{
+	border: none;
+	outline: none;
+	color: #FFF;
+	background-color:#007BFF;
+	
+	padding: 20px 0px;
+	border-radius: 7px; 
+	font-size: 16px;
+	width: 160px;
+	margin-top: 30px;
+	cursor: pointer;
+	box-shadow: 0 13px 27px 0 rgba(211, 211, 211, 0.5)
+}
+
+#landingPageSection #content-container button:hover{
+	opacity: 0.9;
+	transition: 0.5s;
+    background: #000000;
+}*/
+
+
+
 /*********************ABOUT US SECTION**************************/
 
 #aboutUsSection{
